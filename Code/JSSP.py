@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import time
 import os
 import csv
-import chromosome  # Import the chromosome module
+import chromosome  
 from operators import uniform_crossover, single_point_crossover, swap_mutation, scramble_mutation
 from elitism import apply_elitism
 
